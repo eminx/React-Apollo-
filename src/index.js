@@ -4,11 +4,11 @@ import './index.css';
 
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {ApolloProvider} from 'react-apollo';
-import {Client} from './Client';
+import { ApolloProvider } from 'react-apollo';
+import Client from './Client';
 
 const Root = () => (
-  <ApolloProvider  client={Client}>
+  <ApolloProvider client={Client}>
     <App />
   </ApolloProvider>);
 

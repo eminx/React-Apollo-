@@ -1,5 +1,6 @@
 import React from 'react';
-import TodoList from './TodoList'
+import TodoList from './TodoList';
+import Notes from './Notes';
 
 import logo from './logo.svg';
 import './App.css';
@@ -14,6 +15,7 @@ const App = () => (
   <div className="App">
     <Header />
     <TodoList />
+    <Notes />
   </div>
 );
 
